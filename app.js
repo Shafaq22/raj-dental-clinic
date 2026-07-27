@@ -60,7 +60,7 @@ const SERVICES_DATA = [
     title: "Laser Root Canal (RCT)",
     desc: "Advanced laser-assisted root canal therapy providing painless infection removal, sealed canals, and minimal post-op sensitivity.",
     tags: ["Painless", "Single Visit", "Laser Tech"],
-    img: "/images/speciality_laser_rct.jpg",
+    img: "./images/speciality_laser_rct.jpg",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>`
   },
   {
@@ -69,7 +69,7 @@ const SERVICES_DATA = [
     title: "Root Canal with Apex Locator",
     desc: "Electronic precision apex locators ensure exact working length measurement to the canal tip for 100% successful RCT treatment.",
     tags: ["Apex Locator", "High Accuracy", "Micro-precision"],
-    img: "/images/speciality_apex_locator.png",
+    img: "./images/speciality_apex_locator.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>`
   },
   {
@@ -78,7 +78,7 @@ const SERVICES_DATA = [
     title: "Ceramic Crowns & Bridges Fixing",
     desc: "Natural-looking zirconia and PFM ceramic crowns restoring tooth strength, bite alignment, and aesthetic smile beauty.",
     tags: ["Zirconia", "Custom Fit", "Natural Look"],
-    img: "/images/speciality_crowns_bridges.png",
+    img: "./images/speciality_crowns_bridges.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>`
   },
   {
@@ -87,7 +87,7 @@ const SERVICES_DATA = [
     title: "Advanced Implantology",
     desc: "Permanent titanium dental implants replacing missing teeth, restoring complete chewing efficiency and jawbone structure.",
     tags: ["Permanent Fix", "Titanium Implants", "Full Function"],
-    img: "/images/speciality_implantology.png",
+    img: "./images/speciality_implantology.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L5.605 15.12a2 2 0 00-1.022.547l-1.3 1.3A2 2 0 004.707 20.4l1.37-1.37a2 2 0 011.022-.547l2.387-.477a6 6 0 003.86-.517l.318-.158a6 6 0 013.86-.517l2.387.477a2 2 0 001.022.547l1.37 1.37a2 2 0 001.42-.572 2 2 0 00-.006-2.828l-1.3-1.3z"/></svg>`
   },
   {
@@ -96,7 +96,7 @@ const SERVICES_DATA = [
     title: "Wisdom Tooth & 3rd Molar Extraction",
     desc: "Surgical and gentle extractions of impacted 3rd molars relieving severe jaw pain, overcrowding, and gum inflammation.",
     tags: ["Gentle Extraction", "Impacted Molar", "Fast Recovery"],
-    img: "/images/speciality_extraction.png",
+    img: "./images/speciality_extraction.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 0L5 5m4.121 4.121L5 19"/></svg>`
   },
   {
@@ -105,7 +105,7 @@ const SERVICES_DATA = [
     title: "Braces & Invisible Aligners",
     desc: "Orthodontic alignment for crooked teeth, overbites, and spacing using ceramic braces, traditional metal, or clear invisible aligners.",
     tags: ["Smile Alignment", "Clear Aligners", "Custom Wire"],
-    img: "/images/speciality_aligners.png",
+    img: "./images/speciality_aligners.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>`
   },
   {
@@ -114,7 +114,7 @@ const SERVICES_DATA = [
     title: "Full Mouth Rehabilitation",
     desc: "Comprehensive restoration of worn, damaged, or missing teeth combining RCTs, crowns, and implants for total oral health.",
     tags: ["Holistic", "Full Restoration", "Long Lasting"],
-    img: "/images/speciality_full_mouth.png",
+    img: "./images/speciality_full_mouth.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>`
   },
   {
@@ -123,7 +123,7 @@ const SERVICES_DATA = [
     title: "Accidental Injury & Pain OPD",
     desc: "Immediate trauma care for fractured teeth, displaced jaws, dental bleeding, and acute toothache relief during operational hours.",
     tags: ["Trauma OPD", "Accidental Trauma", "Immediate Relief"],
-    img: "/images/speciality_accidental.png",
+    img: "./images/speciality_accidental.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`
   },
   {
@@ -132,7 +132,7 @@ const SERVICES_DATA = [
     title: "Teeth Whitening & Composite Bonding",
     desc: "Instant tooth stain removal, professional bleaching, and composite edge repair for a sparkling white, flawless smile.",
     tags: ["Whitening", "Composite Repair", "Instant Shine"],
-    img: "/images/speciality_whitening.png",
+    img: "./images/speciality_whitening.png",
     svg: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>`
   },
 ];
@@ -397,7 +397,7 @@ function initServicesGrid(filterCategory) {
       <div>
         ${item.img ? `
           <div class="service-img-wrapper">
-            <img src="${item.img}" alt="${item.title}" class="service-card-img">
+            <img src="${item.img}" alt="${item.title}" class="service-card-img" loading="lazy" onerror="this.onerror=null; this.src='https://images.jdmagicbox.com/v2/comp/warangal/v9/9999px870.x870.240402112041.c3v9/catalogue/raj-dental-clinic-warangal-char-rasta-warangal-clinics-ef6n7tq61h.jpg';">
           </div>
         ` : `
           <div class="service-icon-box">
